@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "/songs/"
+status = 200
