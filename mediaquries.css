@@ -1,0 +1,69 @@
+@media (max-width : 1200px) {
+    .left{
+        
+        position: absolute;
+        left: -120%;
+        transition: all .3s;
+        z-index: 1;
+        width: 370px;
+        background-color: black;
+        padding: 0;
+    }
+
+    .right{
+        width: 100vw;
+        margin: 0;
+    }
+
+    .playbar{
+        width: calc(100vw - 75px);
+    }
+    .seekbar{
+        width:calc(100vw - 120px);
+    }
+
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+
+    .left .close{
+        display: block;
+        position: absolute;
+        right: 31px;
+        top: 25px;
+        width: 29px;
+        cursor: pointer;
+    }
+    .card{
+        width: auto;
+    }
+    .cardContainer{
+        margin: 0;
+        justify-content: center;
+        max-height: 55vh;
+    }
+    .songinfo, .songtime{
+        width: auto;
+    }
+    .abovebar{
+        flex-direction: column;
+        gap: 23px;
+        align-items: center;
+    }
+
+    .timevol{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        gap:13px;
+    }
+
+}
+
+@media (max-width: 400px){
+    .card{
+        width: auto;
+    }
+}
